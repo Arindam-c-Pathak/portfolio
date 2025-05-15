@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Arindam</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<!-- Floating Top Navbar -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav class="max-w-5xl mx-auto px-4 py-3 flex justify-center space-x-6">
+        <a href="#home" class="text-gray-800 font-bold text-gray-800 hover:underline">Home</a>
+        <a href="#personal" class="text-gray-800 font-bold text-gray-800 hover:underline">Personal Projects</a>
+        <a href="#webd" class="text-gray-800 font-bold text-gray-800 hover:underline">Web Development Projects</a>
+        <a href="#datas" class="text-gray-800 font-bold text-gray-800 hover:underline">Data Science Projects</a>
+        
+      </nav>
+  </header>
+
+<body id="home"  class="bg-black text-gray-800 pt-20">
+    <section class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl font-bold text-center mb-8">Project Showcase</h1>
+        <p>This is the detailed showcase of all my projects that I have worked on or am working on. Please enjoy!</p>
+        <p>All the repositories of these projects can be found in their respective repositories with the link provided. Thank you! </p>
+        </section>
+
+  <!-- Main Content -->
+  <main class="max-w-5x3 mx-auto px-4 py-8 space-y-16">
+<!-- Personal Projects -->
+    <section id="personal" class="py-8 px-6 bg-blue-200 shadow-md mb-10 rounded-xl max-w-6x1 mx-auto text-center">
+        <h1 class="text-4xl font-bold text-center mb-8">Personal Projects</h1>
+        <nav class="max-w-5xl mx-auto px-4 py-3 flex justify-center space-x-6">
+            <a href="#pa" class="text-gray-800 hover:underline">P.A. (Latest)</a>
+            <a href="#pa2" class="text-gray-800 hover:underline">P.A. (V2)</a>
+            <a href="#pa1" class="text-gray-800 hover:underline">P.A. (V1)</a>
+            <a href="#pa0" class="text-gray-800 hover:underline">P.A. (V0)</a>
+            <a href="#scribe" class="text-gray-800 hover:underline">Scribe</a>
+          </nav>
+          <br>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+        <section id="pa" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4"> Personal Assistant Voice Bot </h2>
+            <p class="mb-4"> This is the latest version and most complete voice assistant bot that I have worked on. This has a front end and functions as an application. Althought the compilation is done separate from the components, it has the capacity to be improved much further. I hope to make it more efficient and light weight application.</p>
+            <div class="aspect-w-16 aspect-h-9">
+                <video class="w-full rounded-md" controls>
+                    <source src="bot_app.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>          
+            </div>
+          </section>
+          <section id="pa2" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4"> Personal Assistant Bot V2</h2>
+            <p class="mb-4"> Removal of console function and textual output, added a Logo to be displayed when the code runs. It is still a simple python code that needs multiple libraries to run instead of being standalone program. To move further, I worked on next version.</p>
+            <div class="aspect-w-16 aspect-h-9">
+                <video class="w-full rounded-md" controls>
+                    <source src="icon_bot.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>          
+            </div>
+          </section>
+          <section id="pa1" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4"> Personal Assistant Bot V1</h2>
+            <p class="mb-4">Moving on from the Text output based design, This version focused on making it modular, a minimal design that doesn't make it clutter the screen when working. There was addition of a logging function that logs all the errors and the conversations between the user and the bot. There is still a need for the console here, which opens when the code is running. To make sure this isn't required, I moved onto newer version which removed all the need for the console window.</p>
+            <div class="aspect-w-16 aspect-h-9">
+                <video class="w-full rounded-md" controls>
+                    <source src="no_text_bot.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>          
+            </div>
+          </section>
+          <section id="pa0" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4"> Personal Assistant Bot V0</h2>
+            <p class="mb-4"> Starting the work on a more efficient and complete voice assistant, The first goal was to make a front end for display for the conversation with the bot. There were a lot of changes that could have been implemented here, but that would have removed the overall essence of the application. So, I decided to keep the main essence as it is and move on to a newer version with V1.</p>
+            <div class="aspect-w-16 aspect-h-9">
+                <video class="w-full rounded-md" controls>
+                    <source src="text_bot.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>          
+            </div>
+          </section>
+          <section id="scribe" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4"> Scribe the Voice Bot </h2>
+            <p class="mb-4"> First major project I worked on at personal level. This project was meant to test the integration of voice commands with different libraries. There are multiple functions in this code that are essentially clutter and repetitive functions. There is no front-end, no visual and no logging functions. This left much room for improvement and can be improved much further. </p>
+            <p>All the codes, files and such related to the project can be found at the <a href="https://github.com/Arindam-c-Pathak/Scribe_the_PA" target="_blank"> Respective GitHub Repository</a></p>
+            <div class="aspect-w-16 aspect-h-9">
+                <video class="w-full rounded-md" controls>
+                    <source src="scribe1.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>          
+            </div>
+          </section>
+          <section id="id" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4"> name </h2>
+            <p class="mb-4"> Description </p>
+            <p>All the codes, files and such related to the project can be found at the <a href="" target="_blank"> Respective GitHub Repository</a></p>
+            <br>
+            <div class="aspect-w-16 aspect-h-9">
+                <video class="w-full rounded-md" controls>
+                    <source src="address" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>          
+            </div>
+          </section>    
+          </div>
+        </section>
+<!-- Web Development Projects -->
+    <section id="webd" class="py-4 px-6 bg-gray-300 shadow-md mb-10 rounded-xl max-w-6x1 mx-auto text-center">
+        <h1 class="text-4xl font-bold text-center mb-8">Web Development Projects</h1>
+        <nav class="max-w-5xl mx-auto px-4 py-3 flex justify-center space-x-6">
+            <a href="#weather" class="text-gray-800 hover:underline">Weather App</a>
+            <a href="#tic" class="text-gray-800 hover:underline">Tic-Tac-Toe</a>
+            <a href="#stopwatch" class="text-gray-800 hover:underline">Stopwatch</a>
+            <a href="#landing" class="text-gray-800 hover:underline">Landing Page</a>
+            <a href="#portfolio1" class="text-gray-800 hover:underline">First Portfolio</a>
+          </nav>
+        <br>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+    <section id="weather" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Weather App</h2>
+        <p class="mb-4">
+          This web application was made using HTML, CSS and Javascript. The main feature of weather search was done using OpenWeatherAPI.</p>
+        <p>All the codes, files and such related to the project can be found at the <a href="https://github.com/Arindam-c-Pathak/Prasunet_WD_05" target="_blank"> Respective GitHub Repository</a></p>
+        <br>
+        <div class="aspect-w-16 aspect-h-9">
+            <video class="w-full rounded-md" controls>
+                <source src="weather_app.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>          
+        </div>
+      </section>
+      <section id="tic" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4"> Tic-Tac-Toe Game  </h2>
+        <p class="mb-4"> This is a simple web application made using HTML, CSS and Javascript. The logic of the game runs in JavaScript, determining the situation of the game after each move and declares the result when it is reached. </p>
+        <p>All the codes, files and such related to the project can be found at the <a href="https://github.com/Arindam-c-Pathak/Prasunet_WD_03" target="_blank"> Respective GitHub Repository</a></p>
+        <br>
+        <div class="aspect-w-16 aspect-h-9">
+            <video class="w-full rounded-md" controls>
+                <source src="tic_tac_toe.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>          
+        </div>
+      </section>
+      <section id="stopwatch" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4"> Stopwatch Web Application</h2>
+        <p class="mb-4"> This is a stopwatch application which has features such as Start/Stop, Lap and Reset. The clock runs on JavaScript code, while HTML and CSS are used to make the structure of the app. </p>
+        <p>All the codes, files and such related to the project can be found at the <a href="https://github.com/Arindam-c-Pathak/Prasunet_WD_02" target="_blank"> Respective GitHub Repository</a></p>
+        <br>
+        <div class="aspect-w-16 aspect-h-9">
+            <video class="w-full rounded-md" controls>
+                <source src="stopwatch.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>          
+        </div>
+      </section>
+      <section id="landing" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4"> Interactive Landing Page </h2>
+        <p class="mb-4"> This was my first ever Web Development Project. For this, I used simple JavaScript for interactive scrolling, HTML and CSS for structuring and shaping the webpage. It is rough in places and has many errors, but I think it is great to show off my progress with the subject. </p>
+        <p>All the codes, files and such related to the project can be found at the <a href="https://github.com/Arindam-c-Pathak/Prasunet_WD_01" target="_blank"> Respective GitHub Repository</a></p>
+        <br>
+        <div class="aspect-w-16 aspect-h-9">
+            <video class="w-full rounded-md" controls>
+                <source src="landing_page.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>          
+        </div>
+      </section>
+    <section id="portfolio1" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">First Portfolio</h2>
+        <p class="mb-4">
+          This is my first portfolio website that I used to get knowledge of HTML, CSS, and JavaScript. It showcases my skills and projects in a simple and elegant design. The website is fully responsive and works well on all devices. I have used various web technologies to create this portfolio, including HTML for structure, CSS for styling, and JavaScript for interactivity.
+        </p>
+        <p>All the codes, files and such related to the project can be found at the <a href="https://github.com/Arindam-c-Pathak/Prasunet_WD_04" target="_blank"> Respective GitHub Repository</a></p>
+        <br>
+        <div class="aspect-w-16 aspect-h-9">
+            <video class="w-full rounded-md" controls>
+                <source src="portfolio1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>          
+        </div>
+      </section>
+    </div>
+</section>
+
+<!-- Data science Project -->
+      <section id="datas" class="py-8 px-6 bg-blue-300 shadow-md mb-10 rounded-xl max-w-6x1 mx-auto text-center">
+        <h1 class="text-4xl font-bold text-center mb-8">Data Science Projects</h1>
+        <nav class="max-w-5xl mx-auto px-4 py-3 flex justify-center space-x-6">
+            <a href="#foreign" class="text-gray-800 hover:underline">Foreign Investment Analysis</a>
+            <a href="#heart" class="text-gray-800 hover:underline">Heart Diagnostic Analysis</a>
+          </nav>
+          <br>
+    <!-- Project -->
+    <section id="foreign" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Analysis of Foreign Investment</h2>     
+        <p class="mb-4">
+        In this project, I was given a dataset containing details of foreign investment in 63 different sectors over 17 fianancial years. After cleaning up the data and running it through the code, the following graphs were generated, compared and analysed. All the details for the project were put into a presentation for easy visualisation.
+        </p>
+        <br>
+        <div class="aspect-w-16 aspect-h-9">
+            <iframe
+            src="foreign_investment.pdf"
+            width="100%"
+            height="600px"
+            class="rounded shadow"
+            > Not available</iframe>
+        </div>
+    </section>
+    <!-- Project -->
+    <section id="heart" class="py-16 px-6 bg-white shadow-md mb-10 rounded-xl max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Heart Disease Diagnostic Analysis</h2>
+        <p class="mb-4">
+        In this project, I analysed the dataset containing details of patients with heart conditions and the relative readings. From that reading, Multiple observations were made that led us to conclude ther relations between these readings and the heart conditions. The graphs obtained were put into a powerpoint presentation, featured below.
+        </p>
+        <br>
+        <div class="aspect-w-16 aspect-h-9">
+            <iframe
+            src="heart_diagnostic.pdf"
+            width="100%"
+            height="600px"
+            class="rounded shadow"
+            > Not available</iframe>
+        </div>
+    </section>
+    </section>
+  </main>
+
+<!-- Footer --> 
+<footer class="bg-black text-center py-4">
+    <p class="text-sm text-gray-200">© 2024 Arindam Chandra Pathak. All rights reserved.</p>
+    <p class="text-sm text-gray-200">Designed by Arindam Chandra Pathak</p>
+</body>
+</html>
+  
